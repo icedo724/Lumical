@@ -1,0 +1,156 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="쓸오더 사용 / 쓸샾 사용 / 포틱 메디테이션 사용 / 크레센도 0 기준"
+            android:textColor="@color/red"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="스펙 입력"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+            <TableRow>
+                <TextView
+                    android:text="스공 : "/>
+                <EditText
+                    android:id="@+id/스공"
+                    android:hint="스공 입력(주의사항 확인)"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="데미지 % : "/>
+                <EditText
+                    android:id="@+id/뎀퍼"
+                    android:hint="데미지 % 입력" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="보공 : " />
+                <EditText
+                    android:id="@+id/보공"
+                    android:hint="보공 입력" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="방무 : "/>
+                <EditText
+                    android:id="@+id/방무"
+                    android:hint="방무 입력" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="크뎀 : "/>
+                <EditText
+                    android:id="@+id/크뎀"
+                    android:hint="쓸샾 사용 후 크뎀" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="오버로드 마나 레벨 : "/>
+                <EditText
+                    android:id="@+id/오마나"
+                    android:hint="1~30레벨(미사용시 0)" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="상태이상 추가 데미지 :" />
+                <EditText
+                    android:id="@+id/상추뎀"
+                    android:hint="상태이상 추가 데미지(미 보유시 0)"/>
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" >
+                <TableRow>
+                    <Button
+                        android:id="@+id/계산"
+                        android:text="계산하기"
+                        android:textColor="@color/black"
+                        android:layout_margin="5dp" />
+                    <Button
+                        android:id="@+id/지우기"
+                        android:text="모두 지우기"
+                        android:textColor="@color/black"
+                        android:layout_margin="5dp"/>
+                </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+            <TableRow>
+                <TextView
+                    android:text="한줄 데미지 :"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/한줄뎀"
+                    android:layout_gravity="center"/>
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+            <TableRow>
+                <TextView
+                    android:text="예상 층수 : "
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/층수"
+                    android:layout_gravity="center"/>
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="※주의사항\n-코어강화 전부완료된 기준\n-오차가 있을 수 있음\n-시드링은 전부 4레벨 크라이시스 포함 모든 링 사용\n-벞지마약 반영 X\n-이퀄 36초 이상\n-한줄 데미지는 앱솔루트 킬 기준"
+            android:textColor="@color/red"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-파괴버프 미 고려 / 파괴버프 보유 시 약 1층 추가"
+            android:textColor="@color/red"/>
+        <Button
+            android:id="@+id/btmain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="메인화면으로"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:onClick="fromcaltomain"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/stbuild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="빌드 보러가기"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:onClick="fromcaltobuild"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</ScrollView>

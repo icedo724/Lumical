@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lumical">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mainimg"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/mainimg_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LumiCal">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".cal"/>
+        <activity android:name=".build"/>
+        <activity android:name=".bu52"/>
+        <activity android:name=".bu53"/>
+        <activity android:name=".bu54"/>
+        <activity android:name=".bu55"/>
+        <activity android:name=".bu56"/>
+        <activity android:name=".bu57"/>
+        <activity android:name=".bu58"/>
+        <activity android:name=".bu59"/>
+        <activity android:name=".bu60"/>
+        <activity android:name=".bu61"/>
+        <activity android:name=".bu63"/>
+        <activity android:name=".bu65"/>
+        <activity android:name=".bu66"/>
+        <activity android:name=".tip"/>
+    </application>
+
+</manifest>
