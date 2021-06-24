@@ -87,7 +87,7 @@ public class cal extends AppCompatActivity {
                     //무기상수 * ( 인트 * 4 + 부스탯 ) * 총 마력 * 마력 % * {(보공+데미지)*0.01+1} * (1+크뎀*0.01) * (1+최뎀*0.01) * 0.01
                     //무기상수 = 1.2
                     //크뎀 기본값 : 35
-                    //기준층 : 60층 : 앱킬 4.2 / 1층
+                    //기준층 : 60층 : 앱킬 4.1 / 1층
                     //적용 링크 : 카데나 / 크레센도 0
                     //레벨 뻥 : 1.2
                     //코강 : 60
@@ -136,7 +136,7 @@ public class cal extends AppCompatActivity {
                     checkone = Integer.parseInt(trueoneline);
                     if (checkone >= 900000000){
                         floor = 67;
-                        층수.setText(floor + "층 이상(개별 문의)");
+                        층수.setText(floor + "층 이상(판정 불가)");
                     }
                     else if (checkone <= 899999999 && checkone >= 810000000){
                         floor = 66;
@@ -192,7 +192,7 @@ public class cal extends AppCompatActivity {
                     }
                     else if (checkone <= 159999999){
                         floor = 53;
-                        층수.setText(floor + "층 이하(개별 문의)");
+                        층수.setText(floor + "층 이하(판정 불가)");
                     }
                     else {
                         Toast.makeText(cal.this, "오류 발생 : 다시 시도해주세요.", Toast.LENGTH_SHORT).show();

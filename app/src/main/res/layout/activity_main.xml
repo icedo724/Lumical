@@ -31,11 +31,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="제작자 : 절경"
+        android:textColor="@color/black"
         android:layout_gravity="center"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="제작자 오픈채팅"
         android:onClick="openchat"
+        android:textColor="@color/black"
         android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="각종 오류, 건의 사항, 질문 등은 오픈채팅으로 전달 부탁드립니다" />
 </LinearLayout>
