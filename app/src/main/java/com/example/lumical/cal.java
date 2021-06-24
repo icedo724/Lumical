@@ -190,7 +190,7 @@ public class cal extends AppCompatActivity {
                         floor = 54;
                         층수.setText(floor + "층");
                     }
-                    else if (checkone <= 15999999){
+                    else if (checkone <= 159999999){
                         floor = 53;
                         층수.setText(floor + "층 이하(개별 문의)");
                     }
