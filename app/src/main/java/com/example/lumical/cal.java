@@ -134,63 +134,63 @@ public class cal extends AppCompatActivity {
                     한줄뎀.setText(trueoneline + "");
                     //한줄뎀.setText(onelinedmg + "억"); < 소숫점 컷 x
                     checkone = Integer.parseInt(trueoneline);
-                    if (checkone >= 930000000){
+                    if (checkone >= 900000000){
                         floor = 67;
                         층수.setText(floor + "층 이상(개별 문의)");
                     }
-                    else if (checkone <= 929999999 && checkone >= 830000000){
+                    else if (checkone <= 899999999 && checkone >= 810000000){
                         floor = 66;
                         층수.setText(floor + "층");
                     }
-                    else if (checkone <= 829999999 && checkone >= 740000000){
+                    else if (checkone <= 809999999 && checkone >= 720000000){
                         floor = 65;
                         층수.setText(floor + "층");
                     }
-                    else if (checkone <= 739999999 && checkone >= 660000000){
+                    else if (checkone <= 719999999 && checkone >= 640000000){
                         floor = 64;
                         층수.setText(floor + "층");
                     }
-                    else if (checkone <= 659999999 && checkone >= 600000000){
+                    else if (checkone <= 639999999 && checkone >= 571500000){
                         floor = 63;
                         층수.setText(floor + "층");
                     }
-                    else if (checkone <= 599999999 && checkone >= 545000000){
+                    else if (checkone <= 571499999 && checkone >= 510000000){
                         floor = 62;
                         층수.setText(floor + "층");
                     }
-                    else if (checkone <= 544999999 && checkone >= 480000000){
+                    else if (checkone <= 509999999 && checkone >= 450000000){
                         floor = 61;
                         층수.setText(floor + "층");
                     }
-                    else if(checkone <= 479999999 && checkone >= 430000000) {
+                    else if (checkone <= 449999999 && checkone >= 410000000) {
                         floor = 60;
                         층수.setText(floor + "층");
                     }
-                    else if (checkone <= 429999999 && checkone >= 340000000){
+                    else if (checkone <= 409999999 && checkone >= 325000000){
                         floor = 59;
                         층수.setText(floor + "층");
                     }
-                    else if (checkone <= 339999999 && checkone >= 300000000){
+                    else if (checkone <= 324999999 && checkone >= 280000000){
                         floor = 58;
                         층수.setText(floor + "층");
                     }
-                    else if (checkone <= 299999999 && checkone >= 270000000){
+                    else if (checkone <= 279999999 && checkone >= 245000000){
                         floor = 57;
                         층수.setText(floor + "층");
                     }
-                    else if (checkone <= 269999999 && checkone >= 230000000){
+                    else if (checkone <= 244999999 && checkone >= 212000000){
                         floor = 56;
                         층수.setText(floor + "층");
                     }
-                    else if (checkone <= 229999999 && checkone >= 200000000){
+                    else if (checkone <= 211999999 && checkone >= 184000000){
                         floor = 55;
                         층수.setText(floor + "층");
                     }
-                    else if (checkone <= 199999999 && checkone >= 175000000){
+                    else if (checkone <= 183999999 && checkone >= 160000000){
                         floor = 54;
                         층수.setText(floor + "층");
                     }
-                    else if (checkone <= 174999999){
+                    else if (checkone <= 15999999){
                         floor = 53;
                         층수.setText(floor + "층 이하(개별 문의)");
                     }
@@ -209,6 +209,6 @@ public class cal extends AppCompatActivity {
     }
     public void fromcaltomain(View view) {
         Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-        startActivity(intent);
+        finish();
     }
 }

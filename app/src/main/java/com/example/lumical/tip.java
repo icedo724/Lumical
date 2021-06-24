@@ -15,6 +15,6 @@ public class tip extends AppCompatActivity {
     }
     public void gobacktip(View v) {
         Intent intent = new Intent(getApplicationContext(), build.class);
-        startActivity(intent);
+        finish();
     }
 }

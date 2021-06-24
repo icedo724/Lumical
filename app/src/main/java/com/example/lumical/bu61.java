@@ -15,6 +15,6 @@ public class bu61 extends AppCompatActivity {
     }
     public void goback(View v) {
         Intent intent = new Intent(getApplicationContext(), build.class);
-        startActivity(intent);
+        finish();
     }
 }

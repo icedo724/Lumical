@@ -61,7 +61,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="47층 : 크라이시스 / 스인미"/>
+            android:text="47층 : 크라이시스 / 스인미 / 메모라이즈"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
