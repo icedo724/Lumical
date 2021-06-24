@@ -104,19 +104,19 @@ public class cal extends AppCompatActivity {
                     checkover = Integer.parseInt(over);
 
                     if ( checkover >= 1 && checkover <= 9 ){
-                        overload = 0.08;
+                        overload = 1.08;
                     }
                     else if ( checkover >= 10 && checkover <= 19) {
-                        overload = 0.09;
+                        overload = 1.09;
                     }
                     else if ( checkover >= 20 && checkover <= 29) {
-                        overload = 0.1;
+                        overload = 1.1;
                     }
                     else if ( checkover == 30) {
-                        overload = 0.11;
+                        overload = 1.11;
                     }
                     else {
-                        overload = 0.0;
+                        overload = 1.0;
                     }
                     rign = 1-(1-(1-(1-(Double.parseDouble(ignor)/100))*0.6*0.8))/2;
                     fixedctdmg = (Double.parseDouble(ctd)/100) + 1.35;
@@ -125,7 +125,7 @@ public class cal extends AppCompatActivity {
                     index3 = index2*(1+(Double.parseDouble(dmg)/100+0.06)+(Double.parseDouble(bper)/100)+(Double.parseDouble(pldmg)/100)); // 스공/뎀퍼/최뎀 * (보공+뎀퍼)
                     index4 = index3 * rign; // 스공/뎀퍼/최뎀 * (보공+뎀퍼) * 방무
                     index5 = index4 * fixedctdmg; // 스공/뎀퍼/최뎀 * (보공+뎀퍼) * 방무 * 크뎀
-                    index6 = index5 * (1.8416 + overload); // 스공/뎀퍼/최뎀 * (보공+뎀퍼) * 방무 * (최뎀+오마나)
+                    index6 = index5 * (1.8416 * overload); // 스공/뎀퍼/최뎀 * (보공+뎀퍼) * 방무 * (최뎀+오마나)
                     index7 = index6 * 3.88 * 1.2 * 2.2; // 스공/뎀퍼/최뎀 * (보공+뎀퍼) * 방무 * 퍼뎀 * 레벨뻥 * 코강
 
                     onelinedmg = index7;
