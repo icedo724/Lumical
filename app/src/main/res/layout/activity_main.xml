@@ -24,6 +24,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:onClick="gorecal"
+        android:textColor="@color/black"
+        android:text="스펙 계산하기(리부트)-Beta" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:onClick="seebuild"
         android:textColor="@color/black"
         android:text="층수별 빌드 보기" />

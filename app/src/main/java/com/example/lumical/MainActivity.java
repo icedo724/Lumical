@@ -32,4 +32,8 @@ public class MainActivity extends AppCompatActivity {
         intent.setData(uri);
         startActivity(intent);
     }
+    public void gorecal(View v){
+        Intent intent = new Intent(getApplicationContext(), recal.class);
+        startActivity(intent);
+    }
 }

@@ -32,6 +32,7 @@
         <activity android:name=".bu65"/>
         <activity android:name=".bu66"/>
         <activity android:name=".tip"/>
+        <activity android:name=".recal"/>
     </application>
 
 </manifest>
