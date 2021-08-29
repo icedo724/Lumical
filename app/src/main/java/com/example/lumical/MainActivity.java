@@ -26,6 +26,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), build.class);
         startActivity(intent);
     }
+    public void makebuild(View v) {
+        Intent intent = new Intent(getApplicationContext(), makebuild.class);
+        startActivity(intent);
+    }
     public void openchat(View v) {
         Intent intent = new Intent(Intent.ACTION_VIEW);
         Uri uri =  Uri.parse("https://open.kakao.com/o/sni0Y2cb");

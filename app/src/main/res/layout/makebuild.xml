@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <TextView
-            android:text="유의사항"
+            android:text="직접 빌드 만드는 법"
             android:textSize="20sp"
             android:gravity="center"
             android:textColor="@color/black"
@@ -17,84 +17,86 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="17dp"
-            android:text="60층 이상 공통"/>
+            android:text="1. 목표층수 설정"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="31, 34, 36층 퍼니싱 사용"/>
+            android:text="2. 3분주기 극딜(리레) 사용 층수 결정"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="21층 데스사이드"/>
+            android:text="3. 웨폰, 리테등 보조링 사용 층수 결정"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="22층~29층 이퀄 발동 후 데스사이드"/>
+            android:text="4. 만들어진 데이터를 기반으로 한판"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="17dp"
-            android:text="59층 이하 공통"/>
+            android:text="5. 첫 이퀄 시작점, 메모라이즈 타이밍 등 전체적인 이퀄 흐름 파악"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="21층 데스사이드"/>
+            android:text="6. 쿨타임이 오지 않거나 너무 오래 노는 시드링, 스킬 재 배치"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="22층 퍼니싱"/>
+            android:text="7. 모든 시드링, 스킬 쿨타임 최적화"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="23층~29층 이퀄 발동 후 데스사이드"/>
+            android:text="8. 시드링, 스킬 쿨타임에 따른 이퀄 흐름 최적화"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="17dp"
-            android:textColor="@color/black"
-            android:text="전 층수 공통"/>
+            android:text="9. 수정된 데이터를 기반으로 직접 해보며 5~8 과정 반복"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="8층 버든 / 11층 의지"/>
+            android:text=""/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="27층 퍼니싱"/>
+            android:text=""/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="30층대 앱킬 > 라리 or 아포 후 앱킬 쿨돌리고 다음층"/>
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:text="※유의사항"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="39층 퍼니싱"/>
+            android:text="리레(가장 강한 반지)와 메용 2, 오브는 같이 묶어서 배치"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="49층 프리드 6"/>
+            android:text="크라이시스는 사용 직후 이퀄상태인 경우에만 사용"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="층마다 쿨돌 최소 7초 이상 할 것"/>
+            android:text="링썸, 크뎀, 레벨처럼 약한 반지들은 해당 층수에서 오래있는 경우 사용x"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="17dp"
-            android:textColor="@color/black"
-            android:text="하이퍼스킬"/>
+            android:text="리테와 프리드를 무조건 엮으려는 발상은 x"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="아포 리차지 / 앱킬 사거리 / 앱킬 데미지 / 라리 데미지 / 라리 사거리"/>
+            android:text="무릉 대부분의 몬스터는 체력비례 데미지가 없어 무적의 비약 유효"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="53층이 최종층인 경우를 제외, 모든 최종층에선 극딜하도록 배치"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="이전 화면으로"
-            android:onClick="gobacktip"
-            android:textColor="@color/black"/>
+            android:text="메인화면으로"
+            android:onClick="gobackmain"
+            android:textColor="@color/black"/>>
     </LinearLayout>
 </ScrollView>
