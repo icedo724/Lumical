@@ -49,7 +49,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="9. 수정된 데이터를 기반으로 직접 해보며 5~8 과정 반복"/>
+            android:text="9. 수정된 데이터를 기반으로 직접 해보며 4~8 과정 반복"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
